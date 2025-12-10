@@ -9,13 +9,13 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-5" id="title">Random Number Generator</h1>
+        <h1 class="text-center mb-5 display-4" id="title">Random Number Generator</h1>
         
-        <div class="card mx-auto" style="max-width: 500px;">
+        <div id="mainCard" class="card mx-auto w-50">
             <div class="card-body">
                 <!-- Preset Buttons -->
                 <div class="mb-2">
-                    <label class="d-block mb-2">Presets:</label>
+                    <p class="d-block mb-2 lead">Presets:</p>
                     <div class="btn-group w-100" role="group">
                         <button type="button" class="btn btn-outline-secondary preset-btn" data-min="1" data-max="16">1-16</button>
                         <button type="button" class="btn btn-outline-secondary preset-btn" data-min="1" data-max="2">1-2</button>
@@ -25,12 +25,12 @@
 
                 <!-- Input Range Section -->
                 <div class="mb-4">
-                    <label for="minInput" class="form-label">MIN:</label>
+                    <label for="minInput" class="form-label lead">Min:</label>
                     <input type="number" class="form-control" id="minInput" placeholder="Enter minimum" value="1">
                 </div>
                 
                 <div class="mb-4">
-                    <label for="maxInput" class="form-label">MAX:</label>
+                    <label for="maxInput" class="form-label lead">Max:</label>
                     <input type="number" class="form-control" id="maxInput" placeholder="Enter maximum" value="100">
                 </div>
 
@@ -38,7 +38,7 @@
                 <button class="btn btn-primary w-100 mb-4" id="generateBtn">GENERATE</button>
 
                 <!-- Output Display -->
-                <div class="alert alert-success text-center mb-4">
+                <div id="outputDisplay" class="alert alert-primary text-center mb-4">
                     <div class="display-4 fw-bold" id="output">0</div>
                 </div>
             </div>
