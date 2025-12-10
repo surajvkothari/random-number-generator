@@ -18,20 +18,18 @@
                     <p class="d-block mb-2 lead">Presets:</p>
                     <div class="btn-group w-100" role="group">
                         <button type="button" class="btn btn-outline-secondary preset-btn" data-min="1" data-max="16">1-16</button>
-                        <button type="button" class="btn btn-outline-secondary preset-btn" data-min="1" data-max="2">1-2</button>
-                        <button type="button" class="btn btn-outline-secondary preset-btn" data-min="1" data-max="10">1-10</button>
                     </div>
                 </div>
 
                 <!-- Input Range Section -->
                 <div class="mb-4">
                     <label for="minInput" class="form-label lead">Min:</label>
-                    <input type="number" class="form-control" id="minInput" placeholder="Enter minimum" value="1">
+                    <input type="number" class="form-control" id="minInput" value="1">
                 </div>
                 
                 <div class="mb-4">
                     <label for="maxInput" class="form-label lead">Max:</label>
-                    <input type="number" class="form-control" id="maxInput" placeholder="Enter maximum" value="100">
+                    <input type="number" class="form-control" id="maxInput" value="10">
                 </div>
 
                 <!-- Generate Button -->
@@ -39,7 +37,7 @@
 
                 <!-- Output Display -->
                 <div id="outputDisplay" class="alert alert-primary text-center mb-4">
-                    <div class="display-4 fw-bold" id="output">0</div>
+                    <div class="display-4 fw-bold" id="output">-</div>
                 </div>
             </div>
         </div>
