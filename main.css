@@ -6,7 +6,6 @@ body {
 #title {
     font-family: "Bitcount Prop Single", sans-serif;
     font-weight: 500;
-    
     color: #EF6C00;
 }
 
@@ -52,11 +51,11 @@ body {
 }
 
 .preset-btn {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .preset-btn:hover{
-    background-color: #455A64;
+    background-color: #455A64 !important;
 }
 
 .preset-btn:active {
