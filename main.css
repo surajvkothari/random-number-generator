@@ -15,6 +15,13 @@ body {
     background-color: #fafafa;
     border: 2px solid #9E9E9E;
     box-shadow: 4px 6px 5px 0px #BDBDBD;
+    width: 75% !important;
+}
+
+@media (min-width: 768px) {
+    #mainCard {
+        width: 50% !important;
+    }
 }
 
 #outputDisplay {
